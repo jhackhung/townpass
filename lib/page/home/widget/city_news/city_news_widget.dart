@@ -16,7 +16,7 @@ class CityNewsWidget extends StatelessWidget {
           Flexible(
             child: _Button(
               icon: Assets.svg.iconPoster.svg(),
-              text: '市政新聞',
+              text: '單親媽媽',
               onTap: () {},
             ),
           ),
@@ -24,7 +24,7 @@ class CityNewsWidget extends StatelessWidget {
           Flexible(
             child: _Button(
               icon: Assets.svg.icon1999.svg(),
-              text: '1999',
+              text: '5678',
               onTap: () {
                 launchUrlString('tel://1999');
               },

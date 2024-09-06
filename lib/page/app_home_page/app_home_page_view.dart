@@ -40,7 +40,7 @@ class AppHomePageView extends GetView<AppHomePageController> {
                 SettingSelectionListItem(
                   selectedLeading: Assets.svg.iconTabbarServiceSelect.svg(),
                   unselectedLeading: Assets.svg.iconTabbarServiceDefault.svg(),
-                  title: '服務',
+                  title: '吃屎',
                 ),
                 SettingSelectionListItem(
                   selectedLeading: Assets.svg.iconTabbarHomeSelect.svg(),

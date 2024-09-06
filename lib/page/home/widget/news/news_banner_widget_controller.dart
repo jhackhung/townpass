@@ -38,7 +38,8 @@ class NewsBannerWidgetController extends GetxController {
       const Duration(seconds: 3),
       (timer) async {
         timer.cancel();
-        final String banners = await rootBundle.loadString(Assets.mockData.homeBanner);
+        final String banners =
+            await rootBundle.loadString(Assets.mockData.homeBanner);
         list = HomeBannerList.fromJson(jsonDecode(banners));
         isLoading = false;
       },
