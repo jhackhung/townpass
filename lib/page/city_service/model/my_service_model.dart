@@ -28,6 +28,7 @@ enum MyServiceItemId {
   library,
   locationSearch,
   zoo,
+  test
   ;
 }
 
@@ -173,6 +174,13 @@ extension MyServiceIdExt on MyServiceItemId {
           icon: Assets.svg.iconZoo24.svg(),
           category: MyServiceCategory.explore,
           destinationUrl: '',
+        ),
+      MyServiceItemId.test => MyServiceItem(
+          title: '市民提議平台',
+          description: '提供市民一個發聲的管道',
+          icon: Assets.svg.iconResidentProposal.svg(),
+          category: MyServiceCategory.other,
+          destinationUrl: 'https://tps-wv.web.app/proposal',
         ),
     };
   }
